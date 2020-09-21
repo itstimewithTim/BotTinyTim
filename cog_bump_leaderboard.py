@@ -28,7 +28,7 @@ class BumpLeaderboard(commands.Cog):
                 self.bumpLb.sync()
                 await message.channel.send('Your successful bump has been recorded into my leaderboard')
                 await asyncio.sleep(60*60*2)
-                message.channel.send('It has been 2 hours, so we can `!d bump` Disboard again! <:Blob_Knight:692763435951194163>')
+                await message.channel.send('It has been 2 hours, so we can `!d bump` Disboard again! <:Blob_Knight:692763435951194163>')
 
     @commands.command(name='add')
     @checks.Janitor()
