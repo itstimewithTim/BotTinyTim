@@ -7,6 +7,7 @@ import os #One of Python's standard libraries
 import checks
 from cog_events import ServerEvents #this one allows me to send welcomer DM to new members
 from cog_bump_leaderboard import BumpLeaderboard #this one has all the code related to the Disboard bump leaderboard
+from cog_server_commands import ServerCommands #this one has all the text commands
 
 # Create the client object
 bot = commands.Bot(command_prefix='t?')
@@ -26,6 +27,9 @@ bot.add_cog(ServerEvents(bot))
 
 #Add the cog_bump_leaderboard.py Cog
 bot.add_cog(BumpLeaderboard(bot))
+
+#Add the cog_server_commands.py Cog
+bot.add_cog(ServerCommands(bot))
 
 # Begin running the bot
 bot.run(TOKEN)
