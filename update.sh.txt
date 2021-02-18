@@ -1,0 +1,5 @@
+#!/bin/sh
+cd ~
+killall python3
+git pull
+python 3 main.py

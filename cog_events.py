@@ -17,6 +17,6 @@ class ServerEvents(commands.Cog):
     async def on_member_join(self, member):
         await member.send('''Hello! Welcome to our Discord Server!
 
-As a new member, you have read-only access to a few channels to give you a taste of what our server is like.
+As a new member, you only have read-only access to our Server's Channels until you agree to our Server Rules :)
 
-In order to see the rest of the channels and to send messages, you first have to accept our rules. To do so, please visit <#550398466187067423> and react with the "T" <:tinytim_happy:683131385703432293>''')
+i hope you enjoy your stay! <:tinytim_happy:683131385703432293>''')
