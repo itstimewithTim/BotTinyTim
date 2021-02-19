@@ -39,7 +39,7 @@ class ServerCommands(commands.Cog):
             icon_url="https://images-ext-2.discordapp.net/external/1kI2hwZ0JjdJ6OOErXGkJ3jDe_9H-EQUjdLz3t5lRvg/%3Fsize%3D1024/https/cdn.discordapp.com/icons/545008229160058910/64be58286d39f3db5d997b65172f5fd7.png"
             )
 
-        await ctx.send(embedrules)
+        await ctx.send(embed=embedrules)
     
     @commands.command(name='invite', aliases=['inv'])
     async def invite(self,ctx):
