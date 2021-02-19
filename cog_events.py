@@ -19,4 +19,4 @@ class ServerEvents(commands.Cog):
 
 As a new member, you only have read-only access to our Server's Channels until you agree to our Server Rules :)
 
-i hope you enjoy your stay! <:tinytim_happy:683131385703432293>''')
+I hope you enjoy your stay! <:tinytim_happy:683131385703432293>''')
